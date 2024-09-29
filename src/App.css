@@ -14,7 +14,6 @@
 
 .kanban-column {
   flex: 1;
-  margin: 0 10px;
   /* background-color: rgba(0, 0, 0, 0.1); */
   /* border-radius: 8px; */
   border: none;
@@ -56,6 +55,7 @@ h2 {
 
 .kanban-card p {
   margin: 5px 0;
+  font-size:0.9em;
 }
 
 /* Priority styles */
@@ -120,7 +120,7 @@ h2 {
   display:flex;
   align-items:center;
   justify-content:space-between;
-  border-radius: 3px;
+  border:none;
 }
 
 .dropdowns {
@@ -164,6 +164,7 @@ h2 {
 
 .title-div{
   margin-left: 10px;
+  max-width: 400px;
 }
 
 .tag-with-icon{
@@ -184,4 +185,10 @@ h2 {
   display: flex;
   align-items: center;
   /* border:2px solid red */
+}
+
+.ticket-id-box{
+  display: flex;
+  align-items: center;
+  height:40px;
 }

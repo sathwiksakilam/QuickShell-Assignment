@@ -113,7 +113,7 @@ const Home = () => {
     if (groupBy === "user") {
       return sortedTickets.reduce((acc, ticket) => {
         const user =
-          users.find((user) => user.id === ticket.userId)?.name || "Unassigned";
+        users.find((user) => user.id === ticket.userId)?.name || "Unassigned";
         acc[user] = acc[user] || [];
         acc[user].push(ticket);
         return acc;
@@ -254,7 +254,7 @@ const Home = () => {
                 <div key={ticket.id} className="kanban-card">
                   <div className="ticket-id-box">
                     <div>
-                      <h5>{ticket.id}</h5>
+                      <h5 style={{fontWeight:"600"}}>{ticket.id}</h5>
                     </div>
                     {groupBy === "priority" && (
                       <div style={{ width: "20px" }}>
@@ -278,7 +278,7 @@ const Home = () => {
                   <div className="user-title-box">
                     {statusIcons[ticket.status]}
                     <div className="title-div">
-                      <h5>{ticket.title}</h5>
+                      <h5 style={{fontWeight:"300",fontSize:"0.9em"}}>{ticket.title}</h5>
                     </div>
                   </div>
                   <div className="feature-icon">
