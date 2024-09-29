@@ -14,7 +14,7 @@ import { ReactComponent as Done } from "../icons_FEtask/Done.svg";
 import { ReactComponent as Display } from "../icons_FEtask/Display.svg";
 import { ReactComponent as Dots } from "../icons_FEtask/3 dot menu.svg";
 import { ReactComponent as Add } from "../icons_FEtask/add.svg";
-import { ReactComponent as FeatureIcon } from "../icons_FEtask/SVG - Urgent Priority grey.svg";
+// import { ReactComponent as FeatureIcon } from "../icons_FEtask/SVG - Urgent Priority grey.svg";
 import { ReactComponent as Down } from "../icons_FEtask/down.svg";
 
 const Home = () => {
